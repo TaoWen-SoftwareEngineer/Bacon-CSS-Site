@@ -1,0 +1,37 @@
+/*********Tag Selectors*****************/
+
+h1{
+  color: red;
+  font-size: 200px;
+
+
+}
+
+/*sudo class to control behavior when mouse hovers over img*/ 
+img:hover{
+  background-color: gold;
+}
+
+
+/*********Class Selectors*****************/
+/*one class name can be applied to many elements (apply to group of items)*/
+/*can apply multiple classes to one element*/
+.bacon{
+  background-color: green;
+}
+
+.broccoli{
+  background-color: red;
+}
+
+.circular{
+  border-radius: 100%;
+}
+
+/*********ID Selectors*****************/
+/*every id name must be unique (apply to one specific element)*/
+/*cannot apply multiple IDs to one element*/
+
+#heading{
+  color: blue;
+}
